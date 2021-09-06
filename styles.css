@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap');
+body{
+    background-color: black;
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+}
+.navbar-brand:hover{
+    color: black;
+}
+navbar{
+    position: fixed;
+}
+.carousel{
+    background-color:  black;
+    height: 400px;
+    width: 100%;
+}
+.img-carousel{
+    width:100%;
+    height: 400px;
+  }
+.carousel-control-prev-icon{
+    color: black;
+}
+.navbrand{
+    width: 50%;
+    padding: 0;
+    margin-left: 10%;
+}
+.nav-link{
+    font-size: 1.1em;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+.navlinks{
+    width: 40%;
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+.navlinks .navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.about_me{
+    width: 50%;
+    padding: 8em;
+    padding-bottom: 0;
+}
+.about_me .name{
+    color: aliceblue;
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+}
+.about_me .below_name{
+    color: rgb(28, 123, 205);
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_me .doing_text{
+    color: white;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+}
+.picture_svg{
+    padding: 5em;
+}
+.web_man{
+    width: 100%;
+    height: auto;
+    padding-right: 2em;
+}
+.hire_me{
+    transition: 250ms;
+}
+.hire_me:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.three_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_one{
+    border-radius: 8px;
+    border: solid whitesmoke 0.2px;
+    background-color: rgb(105, 168, 147);
+}
+.container_card{
+    
+    height: auto;
+}
